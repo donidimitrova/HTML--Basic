@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1{
+                color: blue;
+                font-family: verdana;
+                font-size: 300%;
+            }
+            p{
+                color: chartreuse;
+                font-family: courier;
+                font-size: 160%;
+                border: 1px solid salmon;
+                padding: 30px;
+                margin: 50px;
+            }
+            #p01{
+                color: purple;
+            }
+            p.error{
+                color: maroon;
+            }
+            img{
+                width: 100%;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>This is a heading</h1>
+        <p>This is a paragraph</p>
+        <p id="p01">I am special </p>
+        <p class="error"> I am different</p>
+        <!--style override the stylesheet-->
+        <img src="prova.jpg" alt="Prova fallita" width="400" height="200">
+        <img src="prova.jpg" alt="Prova fallita" style=" width:400px; height:200px;"> 
+        <br>
+        <img src="prova2.gif" alt="Gif fallito" style="width: 150; height: 50;">
+        <img src="prova2.gif" alt="Gif fallito" width="150"; height=" 100">
+    </body>
+</html>
